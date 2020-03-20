@@ -3,6 +3,8 @@
 }
 
 .App-logo {
+  height: calc(50px + 2vmin);
+  grid-area: logo;
   pointer-events: none;
 }
 
@@ -14,11 +16,12 @@
 
 .App-header {
   background-color: #171717;
-  min-height: 100vh;
+  min-height: 7vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  grid-template-areas: "logo title";
   font-size: calc(10px + 2vmin);
   color: white;
 }
