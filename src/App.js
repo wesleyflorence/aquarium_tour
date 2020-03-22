@@ -1,14 +1,14 @@
 import React from 'react';
-import logo from './logo_white.png';
 import './App.css';
+import './Splash.css';
+
+import { Splash } from './Splash';
 import { Tour } from './Tour';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+      <Splash />
       <Tour />
     </div>
   );
