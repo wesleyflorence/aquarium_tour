@@ -10,6 +10,10 @@
   color: #171717;
 }
 
+.Tour-List {
+  list-style-type: none;
+}
+
 .Tour-Map {
-  width: 70vw;
+  width: 70vh;
 }

@@ -1,0 +1,41 @@
+iframe {
+    display: block;       /* iframes are inline by default */
+    background: #000;
+    border: none;         /* Reset default border */
+    height: 50vh;        /* Viewport-relative units */
+    width: 100%;
+}
+
+.PopupVideo {
+  font-size: 12px;
+}
+.PopupVideo > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.PopupVideo > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.PopupVideo > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.PopupVideo > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #000000;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
