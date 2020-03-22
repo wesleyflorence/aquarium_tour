@@ -24,8 +24,32 @@
 }
 
 .pin {
-  position: absolute;
   width: 75px;
+}
+
+
+.pier59 {
+  position: absolute;
   top: 20px;
   left: 50px;
+}
+
+
+.pier60 {
+  position: absolute;
+  top: 280px;
+  left: 300px;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+button:hover{
+     transform: scale(1.08);
 }
