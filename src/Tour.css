@@ -16,4 +16,16 @@
 
 .Tour-Map {
   width: 70vh;
+  position: relative;
+}
+
+.Tour-Map-Image {
+  width: 100%;
+}
+
+.pin {
+  position: absolute;
+  width: 75px;
+  top: 20px;
+  left: 50px;
 }
