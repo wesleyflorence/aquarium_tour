@@ -8,6 +8,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #171717;
+  padding-top: 40px;
 }
 
 .Tour-List {
@@ -15,7 +16,7 @@
 }
 
 .Tour-Map {
-  width: 70vh;
+  width: 80vh;
   position: relative;
 }
 

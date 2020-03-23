@@ -7,7 +7,12 @@
 }
 
 .Splash-header {
-  background-color: #171717;
+  background: url(splash.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
