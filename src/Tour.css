@@ -30,15 +30,52 @@
 
 .pier59 {
   position: absolute;
-  top: 20px;
-  left: 50px;
+  top: 2%;
+  left: 5%;
 }
 
 
 .pier60 {
   position: absolute;
-  top: 280px;
-  left: 300px;
+  top: 30%;
+  left: 40%;
+}
+
+.mezz {
+  position: absolute;
+  top: 74%;
+  left: 3%;
+}
+
+.puget {
+  position: absolute;
+  top: 62%;
+  left: 20%;
+}
+
+.boeing {
+  position: absolute;
+  top: 62%;
+  left: 3%;
+}
+
+.gallery {
+  position: absolute;
+  top: 50%;
+  left: 3%;
+}
+
+
+.pacific {
+  position: absolute;
+  top: 18%;
+  left: 16%;
+}
+
+.life {
+  position: absolute;
+  top: 32%;
+  left: 16%;
 }
 
 button {

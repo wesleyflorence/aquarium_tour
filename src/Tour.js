@@ -41,7 +41,7 @@ class Tour extends React.Component {
 
       <Popup open={this.state.open} onClose={this._popUpClosed} position="center center" modal="true">
       <div>
-      <iframe title="youtube" src={this.state.videoUrl} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe title="youtube-popup" src={this.state.videoUrl} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       </Popup>
 
@@ -49,6 +49,12 @@ class Tour extends React.Component {
       <img src={aquarium_map} className='Tour-Map-Image' alt="aquarium map"/>
       <button className='pier59' onClick={() => this.onClick("https://www.youtube.com/embed/cHjbQsWWOew")}><img src={pier59Pin} className='pin' alt="pin"/></button>
       <button className='pier60' onClick={() => this.onClick("https://www.youtube.com/embed/87CVAoNPbLM")}><img src={pier60Pin} className='pin' alt="pin"/></button>
+      <button className='mezz' onClick={() => this.onClick("https://www.youtube.com/embed/nQp0A5Ey4RU")}><img src={mezzPin} className='pin' alt="pin"/></button>
+      <button className='life' onClick={() => this.onClick("https://www.youtube.com/embed/-FeNdH0ylq4")}><img src={lifePin} className='pin' alt="pin"/></button>
+      <button className='puget' onClick={() => this.onClick("https://www.youtube.com/embed/8ucbwaZfnH4")}><img src={pugetPin} className='pin' alt="pin"/></button>
+      <button className='boeing' onClick={() => this.onClick("https://www.youtube.com/embed/yTn_Bw4Vs70")}><img src={boeingPin} className='pin' alt="pin"/></button>
+      <button className='gallery' onClick={() => this.onClick("https://www.youtube.com/embed/4MSkt3FlYCc")}><img src={galleryPin} className='pin' alt="pin"/></button>
+      <button className='pacific' onClick={() => this.onClick("https://www.youtube.com/embed/sDbuEj2P2ZM")}><img src={pacificPin} className='pin' alt="pin"/></button>
       </div>
 
       <ul className='Tour-List'>
