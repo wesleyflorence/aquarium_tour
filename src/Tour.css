@@ -12,6 +12,8 @@
 }
 
 .Tour-List {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
@@ -54,15 +56,15 @@
   left: 20%;
 }
 
-.boeing {
+.gallery {
   position: absolute;
   top: 62%;
   left: 3%;
 }
 
-.gallery {
+.boeing {
   position: absolute;
-  top: 50%;
+  top: 82%;
   left: 3%;
 }
 
