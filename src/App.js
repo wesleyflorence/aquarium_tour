@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import './Splash.css';
 import './Popup.css';
-import ScrollableAnchor, { goToAnchor, configureAnchors } from "react-scrollable-anchor";
+import ScrollableAnchor, { configureAnchors } from "react-scrollable-anchor";
 
 import { Splash } from './Splash';
 import { Tour } from './Tour';
